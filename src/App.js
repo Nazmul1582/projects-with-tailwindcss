@@ -1,9 +1,10 @@
-import Header from "./components/Header";
+import { Intro, Navbar } from "./components";
 
 function App() {
   return (
-    <div className="h-screen bg-gray-900 ">
-      <Header />
+    <div className="bg-slate-900 w-full overflow-hidden font-poppins">
+      <Navbar />
+      <Intro />
     </div>
   );
 }
